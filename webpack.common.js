@@ -84,15 +84,70 @@ module.exports = {
       chunks: ['index']
     }),
 
-    // Internal pages
+    // about
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/pages/page.html',
-      filename: './pages/page.html',
-      chunks: ['page']
+      template: './src/about.html',
+      filename: './about.html',
+      chunks: ['index']
     }),
-
+    // activity
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/activity.html',
+      filename: './activity.html',
+      chunks: ['index']
+    }),
+    // articles
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/articles.html',
+      filename: './articles.html',
+      chunks: ['index']
+    }),
+    // events
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/events.html',
+      filename: './events.html',
+      chunks: ['index']
+    }),
+    // lifehacks
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/lifehacks.html',
+      filename: './lifehacks.html',
+      chunks: ['index']
+    }),
+    // map
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/map.html',
+      filename: './map.html',
+      chunks: ['index']
+    }),
+    // remindercard
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/remindercard.html',
+      filename: './remindercard.html',
+      chunks: ['index']
+    }),
+    // shop
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/shop.html',
+      filename: './shop.html',
+      chunks: ['index']
+    }),
     // Partials
     new HtmlWebpackPartialsPlugin([
       {
